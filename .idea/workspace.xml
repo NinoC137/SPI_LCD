@@ -20,7 +20,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1adb675a-6447-406d-b701-1846e056ed48" name="Changes" comment="" />
+    <list default="true" id="1adb675a-6447-406d-b701-1846e056ed48" name="Changes" comment="补充readme文件说明">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32h7xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32h7xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32h7xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32h7xx_hal_msp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32h7xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32h7xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCD_SPI_DMA.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/LCD_SPI_DMA.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserApp/LCD/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/LCD/lcd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-06T11-43-01-0231.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD_SPI_DMA.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD_SPI_DMA.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD_SPI_DMA.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD_SPI_DMA.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD_SPI_DMA.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD_SPI_DMA.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LCD_SPI_DMA.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LCD_SPI_DMA.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +66,12 @@
     </option>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2023" />
@@ -59,30 +85,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.LCD_SPI_DMA.elf">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="LCD_SPI_DMA.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LCD_SPI_DMA" TARGET_NAME="LCD_SPI_DMA.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LCD_SPI_DMA" RUN_TARGET_NAME="LCD_SPI_DMA.elf">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCD_SPI_DMA.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LCD_SPI_DMA" TARGET_NAME="LCD_SPI_DMA.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LCD_SPI_DMA" RUN_TARGET_NAME="LCD_SPI_DMA.elf">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -110,8 +138,18 @@
       <updated>1696582123016</updated>
       <workItem from="1696582172622" duration="50000" />
       <workItem from="1696582228497" duration="122000" />
-      <workItem from="1696582357550" duration="11957000" />
+      <workItem from="1696582357550" duration="12938000" />
+      <workItem from="1696599545243" duration="2905000" />
     </task>
+    <task id="LOCAL-00001" summary="补充readme文件说明">
+      <option name="closed" value="true" />
+      <created>1696596827456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696596827456</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +160,10 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="补充readme文件说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充readme文件说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

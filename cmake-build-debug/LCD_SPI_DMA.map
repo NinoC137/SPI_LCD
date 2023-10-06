@@ -1001,6 +1001,8 @@ Discarded input sections
                 0x0000000000000000       0x2a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .text.SPI_DMATransmitReceiveCplt
                 0x0000000000000000       0x2a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ .text.HAL_SPI_TxHalfCpltCallback
+                0x0000000000000000        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .text.HAL_SPI_RxHalfCpltCallback
                 0x0000000000000000        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .text.SPI_DMAHalfReceiveCplt
@@ -1469,7 +1471,7 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000298                . = ALIGN (0x4)
 
-.text           0x0000000008000298     0x57bc
+.text           0x0000000008000298     0x58e0
                 0x0000000008000298                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000298       0x30 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
@@ -1506,486 +1508,486 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
                 0x00000000080006ec       0x24 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
                 0x00000000080006ec                HAL_MspInit
  .text.HAL_SPI_MspInit
-                0x0000000008000710       0xec CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+                0x0000000008000710       0xe4 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
                 0x0000000008000710                HAL_SPI_MspInit
  .text.HAL_UART_MspInit
-                0x00000000080007fc       0xd4 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
-                0x00000000080007fc                HAL_UART_MspInit
+                0x00000000080007f4       0xd4 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
+                0x00000000080007f4                HAL_UART_MspInit
  .text.NMI_Handler
-                0x00000000080008d0        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008d0                NMI_Handler
+                0x00000000080008c8        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008c8                NMI_Handler
  .text.HardFault_Handler
-                0x00000000080008d2        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008d2                HardFault_Handler
+                0x00000000080008ca        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008ca                HardFault_Handler
  .text.MemManage_Handler
-                0x00000000080008d4        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008d4                MemManage_Handler
+                0x00000000080008cc        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008cc                MemManage_Handler
  .text.BusFault_Handler
-                0x00000000080008d6        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008d6                BusFault_Handler
+                0x00000000080008ce        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008ce                BusFault_Handler
  .text.UsageFault_Handler
-                0x00000000080008d8        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008d8                UsageFault_Handler
+                0x00000000080008d0        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008d0                UsageFault_Handler
  .text.SVC_Handler
-                0x00000000080008da        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008da                SVC_Handler
+                0x00000000080008d2        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008d2                SVC_Handler
  .text.DebugMon_Handler
-                0x00000000080008dc        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008dc                DebugMon_Handler
+                0x00000000080008d4        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008d4                DebugMon_Handler
  .text.PendSV_Handler
-                0x00000000080008de        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008de                PendSV_Handler
+                0x00000000080008d6        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008d6                PendSV_Handler
  .text.SysTick_Handler
-                0x00000000080008e0        0x8 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008e0                SysTick_Handler
+                0x00000000080008d8        0x8 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008d8                SysTick_Handler
  .text.DMA1_Stream0_IRQHandler
-                0x00000000080008e8       0x10 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008e8                DMA1_Stream0_IRQHandler
- .text.DMA1_Stream1_IRQHandler
-                0x00000000080008f8       0x10 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x00000000080008f8                DMA1_Stream1_IRQHandler
+                0x00000000080008e0       0x10 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008e0                DMA1_Stream0_IRQHandler
+ .text.DMA1_Stream3_IRQHandler
+                0x00000000080008f0       0x10 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x00000000080008f0                DMA1_Stream3_IRQHandler
  .text.SPI1_IRQHandler
-                0x0000000008000908       0x10 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
-                0x0000000008000908                SPI1_IRQHandler
+                0x0000000008000900       0x10 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
+                0x0000000008000900                SPI1_IRQHandler
  .text.SystemInit
-                0x0000000008000918       0xcc CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/system_stm32h7xx.c.obj
-                0x0000000008000918                SystemInit
+                0x0000000008000910       0xcc CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/system_stm32h7xx.c.obj
+                0x0000000008000910                SystemInit
  .text.Reset_Handler
-                0x00000000080009e4       0x50 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Startup/startup_stm32h743vitx.s.obj
-                0x00000000080009e4                Reset_Handler
+                0x00000000080009dc       0x50 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Startup/startup_stm32h743vitx.s.obj
+                0x00000000080009dc                Reset_Handler
  .text.Default_Handler
-                0x0000000008000a34        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Startup/startup_stm32h743vitx.s.obj
-                0x0000000008000a34                RTC_Alarm_IRQHandler
-                0x0000000008000a34                EXTI2_IRQHandler
-                0x0000000008000a34                TIM8_CC_IRQHandler
-                0x0000000008000a34                HRTIM1_Master_IRQHandler
-                0x0000000008000a34                UART8_IRQHandler
-                0x0000000008000a34                SPI4_IRQHandler
-                0x0000000008000a34                TIM1_CC_IRQHandler
-                0x0000000008000a34                BDMA_Channel6_IRQHandler
-                0x0000000008000a34                DMA2_Stream5_IRQHandler
-                0x0000000008000a34                HRTIM1_FLT_IRQHandler
-                0x0000000008000a34                JPEG_IRQHandler
-                0x0000000008000a34                DMA1_Stream5_IRQHandler
-                0x0000000008000a34                BDMA_Channel1_IRQHandler
-                0x0000000008000a34                HRTIM1_TIMD_IRQHandler
-                0x0000000008000a34                TAMP_STAMP_IRQHandler
-                0x0000000008000a34                EXTI3_IRQHandler
-                0x0000000008000a34                LPTIM4_IRQHandler
-                0x0000000008000a34                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0000000008000a34                LPTIM2_IRQHandler
-                0x0000000008000a34                DFSDM1_FLT1_IRQHandler
-                0x0000000008000a34                DMAMUX2_OVR_IRQHandler
-                0x0000000008000a34                TIM8_UP_TIM13_IRQHandler
-                0x0000000008000a34                I2C3_ER_IRQHandler
-                0x0000000008000a34                DFSDM1_FLT2_IRQHandler
-                0x0000000008000a34                MDMA_IRQHandler
-                0x0000000008000a34                LPTIM3_IRQHandler
-                0x0000000008000a34                HSEM1_IRQHandler
-                0x0000000008000a34                EXTI0_IRQHandler
-                0x0000000008000a34                I2C2_EV_IRQHandler
-                0x0000000008000a34                DMA1_Stream2_IRQHandler
-                0x0000000008000a34                FPU_IRQHandler
-                0x0000000008000a34                OTG_HS_WKUP_IRQHandler
-                0x0000000008000a34                FDCAN1_IT1_IRQHandler
-                0x0000000008000a34                LTDC_ER_IRQHandler
-                0x0000000008000a34                DMA2_Stream2_IRQHandler
-                0x0000000008000a34                HRTIM1_TIME_IRQHandler
-                0x0000000008000a34                TIM6_DAC_IRQHandler
-                0x0000000008000a34                DCMI_IRQHandler
-                0x0000000008000a34                HRTIM1_TIMC_IRQHandler
-                0x0000000008000a34                DMA2_Stream3_IRQHandler
-                0x0000000008000a34                SAI2_IRQHandler
-                0x0000000008000a34                DFSDM1_FLT3_IRQHandler
-                0x0000000008000a34                USART6_IRQHandler
-                0x0000000008000a34                TIM17_IRQHandler
-                0x0000000008000a34                USART3_IRQHandler
-                0x0000000008000a34                BDMA_Channel7_IRQHandler
-                0x0000000008000a34                LPTIM5_IRQHandler
-                0x0000000008000a34                UART5_IRQHandler
-                0x0000000008000a34                ADC3_IRQHandler
-                0x0000000008000a34                DMA2_Stream0_IRQHandler
-                0x0000000008000a34                TIM4_IRQHandler
-                0x0000000008000a34                BDMA_Channel2_IRQHandler
-                0x0000000008000a34                QUADSPI_IRQHandler
-                0x0000000008000a34                I2C1_EV_IRQHandler
-                0x0000000008000a34                DMA1_Stream6_IRQHandler
-                0x0000000008000a34                DMAMUX1_OVR_IRQHandler
-                0x0000000008000a34                TIM16_IRQHandler
-                0x0000000008000a34                UART4_IRQHandler
-                0x0000000008000a34                BDMA_Channel5_IRQHandler
-                0x0000000008000a34                TIM3_IRQHandler
-                0x0000000008000a34                RCC_IRQHandler
-                0x0000000008000a34                TIM8_BRK_TIM12_IRQHandler
-                0x0000000008000a34                TIM1_TRG_COM_IRQHandler
-                0x0000000008000a34                Default_Handler
-                0x0000000008000a34                ECC_IRQHandler
-                0x0000000008000a34                CEC_IRQHandler
-                0x0000000008000a34                EXTI15_10_IRQHandler
-                0x0000000008000a34                BDMA_Channel0_IRQHandler
-                0x0000000008000a34                ADC_IRQHandler
-                0x0000000008000a34                DMA1_Stream7_IRQHandler
-                0x0000000008000a34                HRTIM1_TIMA_IRQHandler
-                0x0000000008000a34                SPI5_IRQHandler
-                0x0000000008000a34                TIM7_IRQHandler
-                0x0000000008000a34                SDMMC1_IRQHandler
-                0x0000000008000a34                TIM5_IRQHandler
-                0x0000000008000a34                DMA2_Stream7_IRQHandler
-                0x0000000008000a34                TIM15_IRQHandler
-                0x0000000008000a34                PVD_AVD_IRQHandler
-                0x0000000008000a34                I2C3_EV_IRQHandler
-                0x0000000008000a34                EXTI9_5_IRQHandler
-                0x0000000008000a34                RTC_WKUP_IRQHandler
-                0x0000000008000a34                LTDC_IRQHandler
-                0x0000000008000a34                SAI3_IRQHandler
-                0x0000000008000a34                ETH_WKUP_IRQHandler
-                0x0000000008000a34                SPDIF_RX_IRQHandler
-                0x0000000008000a34                SPI2_IRQHandler
-                0x0000000008000a34                OTG_HS_EP1_IN_IRQHandler
-                0x0000000008000a34                CRS_IRQHandler
-                0x0000000008000a34                EXTI4_IRQHandler
-                0x0000000008000a34                RNG_IRQHandler
-                0x0000000008000a34                HRTIM1_TIMB_IRQHandler
-                0x0000000008000a34                FDCAN2_IT1_IRQHandler
-                0x0000000008000a34                ETH_IRQHandler
-                0x0000000008000a34                TIM1_UP_IRQHandler
-                0x0000000008000a34                BDMA_Channel4_IRQHandler
-                0x0000000008000a34                OTG_HS_EP1_OUT_IRQHandler
-                0x0000000008000a34                WWDG_IRQHandler
-                0x0000000008000a34                SPI6_IRQHandler
-                0x0000000008000a34                MDIOS_IRQHandler
-                0x0000000008000a34                I2C4_EV_IRQHandler
-                0x0000000008000a34                FDCAN2_IT0_IRQHandler
-                0x0000000008000a34                LPUART1_IRQHandler
-                0x0000000008000a34                FDCAN1_IT0_IRQHandler
-                0x0000000008000a34                TIM2_IRQHandler
-                0x0000000008000a34                OTG_FS_WKUP_IRQHandler
-                0x0000000008000a34                OTG_HS_IRQHandler
-                0x0000000008000a34                DMA2D_IRQHandler
-                0x0000000008000a34                TIM1_BRK_IRQHandler
-                0x0000000008000a34                EXTI1_IRQHandler
-                0x0000000008000a34                SDMMC2_IRQHandler
-                0x0000000008000a34                OTG_FS_EP1_OUT_IRQHandler
-                0x0000000008000a34                BDMA_Channel3_IRQHandler
-                0x0000000008000a34                UART7_IRQHandler
-                0x0000000008000a34                MDIOS_WKUP_IRQHandler
-                0x0000000008000a34                USART2_IRQHandler
-                0x0000000008000a34                DFSDM1_FLT0_IRQHandler
-                0x0000000008000a34                SAI4_IRQHandler
-                0x0000000008000a34                I2C2_ER_IRQHandler
-                0x0000000008000a34                DMA2_Stream1_IRQHandler
-                0x0000000008000a34                FLASH_IRQHandler
-                0x0000000008000a34                DMA2_Stream4_IRQHandler
-                0x0000000008000a34                USART1_IRQHandler
-                0x0000000008000a34                OTG_FS_IRQHandler
-                0x0000000008000a34                SPI3_IRQHandler
-                0x0000000008000a34                WAKEUP_PIN_IRQHandler
-                0x0000000008000a34                DMA1_Stream4_IRQHandler
-                0x0000000008000a34                OTG_FS_EP1_IN_IRQHandler
-                0x0000000008000a34                I2C1_ER_IRQHandler
-                0x0000000008000a34                FMC_IRQHandler
-                0x0000000008000a34                FDCAN_CAL_IRQHandler
-                0x0000000008000a34                SWPMI1_IRQHandler
-                0x0000000008000a34                COMP1_IRQHandler
-                0x0000000008000a34                LPTIM1_IRQHandler
-                0x0000000008000a34                I2C4_ER_IRQHandler
-                0x0000000008000a34                DMA2_Stream6_IRQHandler
-                0x0000000008000a34                SAI1_IRQHandler
-                0x0000000008000a34                DMA1_Stream3_IRQHandler
- *fill*         0x0000000008000a36        0x2 
+                0x0000000008000a2c        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Startup/startup_stm32h743vitx.s.obj
+                0x0000000008000a2c                RTC_Alarm_IRQHandler
+                0x0000000008000a2c                EXTI2_IRQHandler
+                0x0000000008000a2c                TIM8_CC_IRQHandler
+                0x0000000008000a2c                HRTIM1_Master_IRQHandler
+                0x0000000008000a2c                UART8_IRQHandler
+                0x0000000008000a2c                SPI4_IRQHandler
+                0x0000000008000a2c                TIM1_CC_IRQHandler
+                0x0000000008000a2c                BDMA_Channel6_IRQHandler
+                0x0000000008000a2c                DMA2_Stream5_IRQHandler
+                0x0000000008000a2c                HRTIM1_FLT_IRQHandler
+                0x0000000008000a2c                JPEG_IRQHandler
+                0x0000000008000a2c                DMA1_Stream5_IRQHandler
+                0x0000000008000a2c                BDMA_Channel1_IRQHandler
+                0x0000000008000a2c                HRTIM1_TIMD_IRQHandler
+                0x0000000008000a2c                TAMP_STAMP_IRQHandler
+                0x0000000008000a2c                EXTI3_IRQHandler
+                0x0000000008000a2c                LPTIM4_IRQHandler
+                0x0000000008000a2c                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008000a2c                LPTIM2_IRQHandler
+                0x0000000008000a2c                DFSDM1_FLT1_IRQHandler
+                0x0000000008000a2c                DMAMUX2_OVR_IRQHandler
+                0x0000000008000a2c                TIM8_UP_TIM13_IRQHandler
+                0x0000000008000a2c                I2C3_ER_IRQHandler
+                0x0000000008000a2c                DFSDM1_FLT2_IRQHandler
+                0x0000000008000a2c                MDMA_IRQHandler
+                0x0000000008000a2c                LPTIM3_IRQHandler
+                0x0000000008000a2c                HSEM1_IRQHandler
+                0x0000000008000a2c                EXTI0_IRQHandler
+                0x0000000008000a2c                I2C2_EV_IRQHandler
+                0x0000000008000a2c                DMA1_Stream2_IRQHandler
+                0x0000000008000a2c                FPU_IRQHandler
+                0x0000000008000a2c                OTG_HS_WKUP_IRQHandler
+                0x0000000008000a2c                FDCAN1_IT1_IRQHandler
+                0x0000000008000a2c                LTDC_ER_IRQHandler
+                0x0000000008000a2c                DMA2_Stream2_IRQHandler
+                0x0000000008000a2c                HRTIM1_TIME_IRQHandler
+                0x0000000008000a2c                TIM6_DAC_IRQHandler
+                0x0000000008000a2c                DCMI_IRQHandler
+                0x0000000008000a2c                HRTIM1_TIMC_IRQHandler
+                0x0000000008000a2c                DMA2_Stream3_IRQHandler
+                0x0000000008000a2c                SAI2_IRQHandler
+                0x0000000008000a2c                DFSDM1_FLT3_IRQHandler
+                0x0000000008000a2c                USART6_IRQHandler
+                0x0000000008000a2c                TIM17_IRQHandler
+                0x0000000008000a2c                USART3_IRQHandler
+                0x0000000008000a2c                BDMA_Channel7_IRQHandler
+                0x0000000008000a2c                LPTIM5_IRQHandler
+                0x0000000008000a2c                UART5_IRQHandler
+                0x0000000008000a2c                ADC3_IRQHandler
+                0x0000000008000a2c                DMA2_Stream0_IRQHandler
+                0x0000000008000a2c                TIM4_IRQHandler
+                0x0000000008000a2c                BDMA_Channel2_IRQHandler
+                0x0000000008000a2c                QUADSPI_IRQHandler
+                0x0000000008000a2c                I2C1_EV_IRQHandler
+                0x0000000008000a2c                DMA1_Stream6_IRQHandler
+                0x0000000008000a2c                DMAMUX1_OVR_IRQHandler
+                0x0000000008000a2c                DMA1_Stream1_IRQHandler
+                0x0000000008000a2c                TIM16_IRQHandler
+                0x0000000008000a2c                UART4_IRQHandler
+                0x0000000008000a2c                BDMA_Channel5_IRQHandler
+                0x0000000008000a2c                TIM3_IRQHandler
+                0x0000000008000a2c                RCC_IRQHandler
+                0x0000000008000a2c                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008000a2c                TIM1_TRG_COM_IRQHandler
+                0x0000000008000a2c                Default_Handler
+                0x0000000008000a2c                ECC_IRQHandler
+                0x0000000008000a2c                CEC_IRQHandler
+                0x0000000008000a2c                EXTI15_10_IRQHandler
+                0x0000000008000a2c                BDMA_Channel0_IRQHandler
+                0x0000000008000a2c                ADC_IRQHandler
+                0x0000000008000a2c                DMA1_Stream7_IRQHandler
+                0x0000000008000a2c                HRTIM1_TIMA_IRQHandler
+                0x0000000008000a2c                SPI5_IRQHandler
+                0x0000000008000a2c                TIM7_IRQHandler
+                0x0000000008000a2c                SDMMC1_IRQHandler
+                0x0000000008000a2c                TIM5_IRQHandler
+                0x0000000008000a2c                DMA2_Stream7_IRQHandler
+                0x0000000008000a2c                TIM15_IRQHandler
+                0x0000000008000a2c                PVD_AVD_IRQHandler
+                0x0000000008000a2c                I2C3_EV_IRQHandler
+                0x0000000008000a2c                EXTI9_5_IRQHandler
+                0x0000000008000a2c                RTC_WKUP_IRQHandler
+                0x0000000008000a2c                LTDC_IRQHandler
+                0x0000000008000a2c                SAI3_IRQHandler
+                0x0000000008000a2c                ETH_WKUP_IRQHandler
+                0x0000000008000a2c                SPDIF_RX_IRQHandler
+                0x0000000008000a2c                SPI2_IRQHandler
+                0x0000000008000a2c                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008000a2c                CRS_IRQHandler
+                0x0000000008000a2c                EXTI4_IRQHandler
+                0x0000000008000a2c                RNG_IRQHandler
+                0x0000000008000a2c                HRTIM1_TIMB_IRQHandler
+                0x0000000008000a2c                FDCAN2_IT1_IRQHandler
+                0x0000000008000a2c                ETH_IRQHandler
+                0x0000000008000a2c                TIM1_UP_IRQHandler
+                0x0000000008000a2c                BDMA_Channel4_IRQHandler
+                0x0000000008000a2c                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008000a2c                WWDG_IRQHandler
+                0x0000000008000a2c                SPI6_IRQHandler
+                0x0000000008000a2c                MDIOS_IRQHandler
+                0x0000000008000a2c                I2C4_EV_IRQHandler
+                0x0000000008000a2c                FDCAN2_IT0_IRQHandler
+                0x0000000008000a2c                LPUART1_IRQHandler
+                0x0000000008000a2c                FDCAN1_IT0_IRQHandler
+                0x0000000008000a2c                TIM2_IRQHandler
+                0x0000000008000a2c                OTG_FS_WKUP_IRQHandler
+                0x0000000008000a2c                OTG_HS_IRQHandler
+                0x0000000008000a2c                DMA2D_IRQHandler
+                0x0000000008000a2c                TIM1_BRK_IRQHandler
+                0x0000000008000a2c                EXTI1_IRQHandler
+                0x0000000008000a2c                SDMMC2_IRQHandler
+                0x0000000008000a2c                OTG_FS_EP1_OUT_IRQHandler
+                0x0000000008000a2c                BDMA_Channel3_IRQHandler
+                0x0000000008000a2c                UART7_IRQHandler
+                0x0000000008000a2c                MDIOS_WKUP_IRQHandler
+                0x0000000008000a2c                USART2_IRQHandler
+                0x0000000008000a2c                DFSDM1_FLT0_IRQHandler
+                0x0000000008000a2c                SAI4_IRQHandler
+                0x0000000008000a2c                I2C2_ER_IRQHandler
+                0x0000000008000a2c                DMA2_Stream1_IRQHandler
+                0x0000000008000a2c                FLASH_IRQHandler
+                0x0000000008000a2c                DMA2_Stream4_IRQHandler
+                0x0000000008000a2c                USART1_IRQHandler
+                0x0000000008000a2c                OTG_FS_IRQHandler
+                0x0000000008000a2c                SPI3_IRQHandler
+                0x0000000008000a2c                WAKEUP_PIN_IRQHandler
+                0x0000000008000a2c                DMA1_Stream4_IRQHandler
+                0x0000000008000a2c                OTG_FS_EP1_IN_IRQHandler
+                0x0000000008000a2c                I2C1_ER_IRQHandler
+                0x0000000008000a2c                FMC_IRQHandler
+                0x0000000008000a2c                FDCAN_CAL_IRQHandler
+                0x0000000008000a2c                SWPMI1_IRQHandler
+                0x0000000008000a2c                COMP1_IRQHandler
+                0x0000000008000a2c                LPTIM1_IRQHandler
+                0x0000000008000a2c                I2C4_ER_IRQHandler
+                0x0000000008000a2c                DMA2_Stream6_IRQHandler
+                0x0000000008000a2c                SAI1_IRQHandler
+ *fill*         0x0000000008000a2e        0x2 
  .text.HAL_InitTick
-                0x0000000008000a38       0x50 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x0000000008000a38                HAL_InitTick
+                0x0000000008000a30       0x50 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x0000000008000a30                HAL_InitTick
  .text.HAL_Init
-                0x0000000008000a88       0x5c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x0000000008000a88                HAL_Init
+                0x0000000008000a80       0x5c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x0000000008000a80                HAL_Init
  .text.HAL_IncTick
-                0x0000000008000ae4       0x18 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x0000000008000ae4                HAL_IncTick
+                0x0000000008000adc       0x18 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x0000000008000adc                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008000afc        0xc CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x0000000008000afc                HAL_GetTick
+                0x0000000008000af4        0xc CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x0000000008000af4                HAL_GetTick
  .text.HAL_Delay
-                0x0000000008000b08       0x28 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x0000000008000b08                HAL_Delay
+                0x0000000008000b00       0x28 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x0000000008000b00                HAL_Delay
  .text.HAL_GetREVID
-                0x0000000008000b30        0xc CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
-                0x0000000008000b30                HAL_GetREVID
+                0x0000000008000b28        0xc CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c.obj
+                0x0000000008000b28                HAL_GetREVID
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0000000008000b3c       0x24 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x0000000008000b3c                HAL_NVIC_SetPriorityGrouping
+                0x0000000008000b34       0x24 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x0000000008000b34                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0000000008000b60       0x6c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x0000000008000b60                HAL_NVIC_SetPriority
+                0x0000000008000b58       0x6c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x0000000008000b58                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0000000008000bcc       0x1c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x0000000008000bcc                HAL_NVIC_EnableIRQ
+                0x0000000008000bc4       0x1c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x0000000008000bc4                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0000000008000be8       0x28 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
-                0x0000000008000be8                HAL_SYSTICK_Config
+                0x0000000008000be0       0x28 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c.obj
+                0x0000000008000be0                HAL_SYSTICK_Config
  .text.DMA_SetConfig
-                0x0000000008000c10      0x1b4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x0000000008000c08      0x1b4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
  .text.DMA_CalcBaseAndBitshift
-                0x0000000008000dc4       0xb4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x0000000008000dbc       0xb4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
  .text.DMA_CheckFifoParam
-                0x0000000008000e78       0x92 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
- *fill*         0x0000000008000f0a        0x2 
+                0x0000000008000e70       0x92 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+ *fill*         0x0000000008000f02        0x2 
  .text.DMA_CalcDMAMUXChannelBaseAndMask
-                0x0000000008000f0c       0xb0 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x0000000008000f04       0xb0 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
  .text.DMA_CalcDMAMUXRequestGenBaseAndMask
-                0x0000000008000fbc       0x7c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x0000000008000fb4       0x7c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
  .text.HAL_DMA_Init
-                0x0000000008001038      0x3a4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
-                0x0000000008001038                HAL_DMA_Init
+                0x0000000008001030      0x3a4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x0000000008001030                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x00000000080013dc      0x298 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
-                0x00000000080013dc                HAL_DMA_Start_IT
+                0x00000000080013d4      0x298 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x00000000080013d4                HAL_DMA_Start_IT
  .text.HAL_DMA_Abort_IT
-                0x0000000008001674      0x270 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
-                0x0000000008001674                HAL_DMA_Abort_IT
+                0x000000000800166c      0x270 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x000000000800166c                HAL_DMA_Abort_IT
  .text.HAL_DMA_IRQHandler
-                0x00000000080018e4      0x738 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
-                0x00000000080018e4                HAL_DMA_IRQHandler
+                0x00000000080018dc      0x738 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x00000000080018dc                HAL_DMA_IRQHandler
  .text.HAL_DMA_GetError
-                0x000000000800201c        0x4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
-                0x000000000800201c                HAL_DMA_GetError
+                0x0000000008002014        0x4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x0000000008002014                HAL_DMA_GetError
  .text.HAL_GPIO_Init
-                0x0000000008002020      0x220 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
-                0x0000000008002020                HAL_GPIO_Init
+                0x0000000008002018      0x220 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+                0x0000000008002018                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0000000008002240        0xc CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
-                0x0000000008002240                HAL_GPIO_WritePin
+                0x0000000008002238        0xc CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+                0x0000000008002238                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x000000000800224c       0x12 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
-                0x000000000800224c                HAL_GPIO_TogglePin
- *fill*         0x000000000800225e        0x2 
+                0x0000000008002244       0x12 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c.obj
+                0x0000000008002244                HAL_GPIO_TogglePin
+ *fill*         0x0000000008002256        0x2 
  .text.HAL_PWREx_ConfigSupply
-                0x0000000008002260       0x54 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
-                0x0000000008002260                HAL_PWREx_ConfigSupply
+                0x0000000008002258       0x54 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c.obj
+                0x0000000008002258                HAL_PWREx_ConfigSupply
  .text.HAL_RCC_OscConfig
-                0x00000000080022b4      0x6b4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                0x00000000080022b4                HAL_RCC_OscConfig
+                0x00000000080022ac      0x6b4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x00000000080022ac                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x0000000008002968      0x1f4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                0x0000000008002968                HAL_RCC_GetSysClockFreq
+                0x0000000008002960      0x1f4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x0000000008002960                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x0000000008002b5c      0x294 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                0x0000000008002b5c                HAL_RCC_ClockConfig
+                0x0000000008002b54      0x294 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x0000000008002b54                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x0000000008002df0       0x44 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                0x0000000008002df0                HAL_RCC_GetHCLKFreq
+                0x0000000008002de8       0x44 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x0000000008002de8                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0000000008002e34       0x24 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                0x0000000008002e34                HAL_RCC_GetPCLK1Freq
+                0x0000000008002e2c       0x24 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x0000000008002e2c                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0000000008002e58       0x24 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
-                0x0000000008002e58                HAL_RCC_GetPCLK2Freq
+                0x0000000008002e50       0x24 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c.obj
+                0x0000000008002e50                HAL_RCC_GetPCLK2Freq
  .text.RCCEx_PLL2_Config
-                0x0000000008002e7c      0x10c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+                0x0000000008002e74      0x10c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
  .text.RCCEx_PLL3_Config
-                0x0000000008002f88      0x10c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+                0x0000000008002f80      0x10c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x0000000008003094      0xa8c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
-                0x0000000008003094                HAL_RCCEx_PeriphCLKConfig
+                0x000000000800308c      0xa8c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+                0x000000000800308c                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_RCCEx_GetD3PCLK1Freq
-                0x0000000008003b20       0x24 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
-                0x0000000008003b20                HAL_RCCEx_GetD3PCLK1Freq
+                0x0000000008003b18       0x24 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+                0x0000000008003b18                HAL_RCCEx_GetD3PCLK1Freq
  .text.HAL_RCCEx_GetPLL2ClockFreq
-                0x0000000008003b44      0x1f8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
-                0x0000000008003b44                HAL_RCCEx_GetPLL2ClockFreq
+                0x0000000008003b3c      0x1f8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+                0x0000000008003b3c                HAL_RCCEx_GetPLL2ClockFreq
  .text.HAL_RCCEx_GetPLL3ClockFreq
-                0x0000000008003d3c      0x1f8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
-                0x0000000008003d3c                HAL_RCCEx_GetPLL3ClockFreq
+                0x0000000008003d34      0x1f8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c.obj
+                0x0000000008003d34                HAL_RCCEx_GetPLL3ClockFreq
  .text.SPI_CloseTransfer
-                0x0000000008003f34       0xd0 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x0000000008003f2c       0xd0 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .text.SPI_GetPacketSize
-                0x0000000008004004       0x10 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x0000000008003ffc       0x10 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .text.SPI_WaitOnFlagUntilTimeout
-                0x0000000008004014       0x46 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
- *fill*         0x000000000800405a        0x2 
+                0x000000000800400c       0x46 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+ *fill*         0x0000000008004052        0x2 
  .text.HAL_SPI_Init
-                0x000000000800405c      0x190 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x000000000800405c                HAL_SPI_Init
+                0x0000000008004054      0x190 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x0000000008004054                HAL_SPI_Init
  .text.HAL_SPI_Transmit
-                0x00000000080041ec      0x2d4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x00000000080041ec                HAL_SPI_Transmit
+                0x00000000080041e4      0x2d4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x00000000080041e4                HAL_SPI_Transmit
  .text.HAL_SPI_Transmit_DMA
-                0x00000000080044c0      0x1c8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x00000000080044c0                HAL_SPI_Transmit_DMA
+                0x00000000080044b8      0x1c8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x00000000080044b8                HAL_SPI_Transmit_DMA
  .text.SPI_DMATransmitCplt
-                0x0000000008004688       0x2a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x0000000008004680       0x2a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .text.HAL_SPI_RxCpltCallback
-                0x00000000080046b2        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x00000000080046b2                HAL_SPI_RxCpltCallback
+                0x00000000080046aa        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x00000000080046aa                HAL_SPI_RxCpltCallback
  .text.HAL_SPI_TxRxCpltCallback
-                0x00000000080046b4        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x00000000080046b4                HAL_SPI_TxRxCpltCallback
- .text.HAL_SPI_TxHalfCpltCallback
-                0x00000000080046b6        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x00000000080046b6                HAL_SPI_TxHalfCpltCallback
+                0x00000000080046ac        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x00000000080046ac                HAL_SPI_TxRxCpltCallback
  .text.SPI_DMAHalfTransmitCplt
-                0x00000000080046b8        0xa CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x00000000080046ae        0xa CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .text.HAL_SPI_ErrorCallback
-                0x00000000080046c2        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x00000000080046c2                HAL_SPI_ErrorCallback
+                0x00000000080046b8        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x00000000080046b8                HAL_SPI_ErrorCallback
  .text.SPI_DMAError
-                0x00000000080046c4       0x2e CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x00000000080046ba       0x2e CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .text.SPI_DMAAbortOnError
-                0x00000000080046f2       0x1a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x00000000080046e8       0x1a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .text.HAL_SPI_SuspendCallback
-                0x000000000800470c        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x000000000800470c                HAL_SPI_SuspendCallback
- *fill*         0x000000000800470e        0x2 
+                0x0000000008004702        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x0000000008004702                HAL_SPI_SuspendCallback
  .text.HAL_SPI_IRQHandler
-                0x0000000008004710      0x240 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x0000000008004710                HAL_SPI_IRQHandler
+                0x0000000008004704      0x240 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x0000000008004704                HAL_SPI_IRQHandler
  .text.HAL_SPI_GetState
-                0x0000000008004950        0x6 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
-                0x0000000008004950                HAL_SPI_GetState
- *fill*         0x0000000008004956        0x2 
+                0x0000000008004944        0x6 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
+                0x0000000008004944                HAL_SPI_GetState
+ *fill*         0x000000000800494a        0x2 
  .text.UART_EndRxTransfer
-                0x0000000008004958       0x58 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+                0x000000000800494c       0x58 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x00000000080049b0      0x5f4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
-                0x00000000080049b0                UART_SetConfig
+                0x00000000080049a4      0x5f4 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+                0x00000000080049a4                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x0000000008004fa4       0xca CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
-                0x0000000008004fa4                UART_AdvFeatureConfig
+                0x0000000008004f98       0xca CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+                0x0000000008004f98                UART_AdvFeatureConfig
  .text.UART_WaitOnFlagUntilTimeout
-                0x000000000800506e       0x9a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
-                0x000000000800506e                UART_WaitOnFlagUntilTimeout
+                0x0000000008005062       0x9a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+                0x0000000008005062                UART_WaitOnFlagUntilTimeout
  .text.UART_CheckIdleState
-                0x0000000008005108       0xca CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
-                0x0000000008005108                UART_CheckIdleState
+                0x00000000080050fc       0xca CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+                0x00000000080050fc                UART_CheckIdleState
  .text.HAL_UART_Init
-                0x00000000080051d2       0x66 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
-                0x00000000080051d2                HAL_UART_Init
+                0x00000000080051c6       0x66 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+                0x00000000080051c6                HAL_UART_Init
  .text.UARTEx_SetNbDataToProcess
-                0x0000000008005238       0x4c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+                0x000000000800522c       0x4c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
  .text.HAL_UARTEx_DisableFifoMode
-                0x0000000008005284       0x3e CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
-                0x0000000008005284                HAL_UARTEx_DisableFifoMode
+                0x0000000008005278       0x3e CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+                0x0000000008005278                HAL_UARTEx_DisableFifoMode
  .text.HAL_UARTEx_SetTxFifoThreshold
-                0x00000000080052c2       0x4a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
-                0x00000000080052c2                HAL_UARTEx_SetTxFifoThreshold
+                0x00000000080052b6       0x4a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+                0x00000000080052b6                HAL_UARTEx_SetTxFifoThreshold
  .text.HAL_UARTEx_SetRxFifoThreshold
-                0x000000000800530c       0x4a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
-                0x000000000800530c                HAL_UARTEx_SetRxFifoThreshold
- *fill*         0x0000000008005356        0x2 
+                0x0000000008005300       0x4a CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+                0x0000000008005300                HAL_UARTEx_SetRxFifoThreshold
+ *fill*         0x000000000800534a        0x2 
  .text.HAL_SPI_TxCpltCallback
-                0x0000000008005358       0x18 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
-                0x0000000008005358                HAL_SPI_TxCpltCallback
+                0x000000000800534c       0x18 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+                0x000000000800534c                HAL_SPI_TxCpltCallback
+ .text.HAL_SPI_TxHalfCpltCallback
+                0x0000000008005364        0x2 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+                0x0000000008005364                HAL_SPI_TxHalfCpltCallback
+ *fill*         0x0000000008005366        0x2 
  .text.LCD_Fill
-                0x0000000008005370       0x68 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
-                0x0000000008005370                LCD_Fill
+                0x0000000008005368      0x194 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+                0x0000000008005368                LCD_Fill
  .text.LCD_Writ_Bus
-                0x00000000080053d8       0x44 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
-                0x00000000080053d8                LCD_Writ_Bus
+                0x00000000080054fc       0x44 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+                0x00000000080054fc                LCD_Writ_Bus
  .text.LCD_WR_DATA8
-                0x000000000800541c        0x8 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
-                0x000000000800541c                LCD_WR_DATA8
+                0x0000000008005540        0x8 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+                0x0000000008005540                LCD_WR_DATA8
  .text.LCD_WR_DATA
-                0x0000000008005424       0x48 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
-                0x0000000008005424                LCD_WR_DATA
+                0x0000000008005548       0x48 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+                0x0000000008005548                LCD_WR_DATA
  .text.LCD_WR_REG
-                0x000000000800546c       0x2c CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
-                0x000000000800546c                LCD_WR_REG
+                0x0000000008005590       0x2c CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+                0x0000000008005590                LCD_WR_REG
  .text.LCD_Address_Set
-                0x0000000008005498       0x36 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
-                0x0000000008005498                LCD_Address_Set
- *fill*         0x00000000080054ce        0x2 
+                0x00000000080055bc       0x36 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+                0x00000000080055bc                LCD_Address_Set
+ *fill*         0x00000000080055f2        0x2 
  .text.LCD_Init
-                0x00000000080054d0      0x1b0 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
-                0x00000000080054d0                LCD_Init
+                0x00000000080055f4      0x1b0 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+                0x00000000080055f4                LCD_Init
  .text.__udivmoddi4
-                0x0000000008005680      0x2d0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x0000000008005680                __udivmoddi4
+                0x00000000080057a4      0x2d0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x00000000080057a4                __udivmoddi4
  .text.__libc_init_array
-                0x0000000008005950       0x48 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
-                0x0000000008005950                __libc_init_array
- .text.memset   0x0000000008005998       0xa4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
-                0x0000000008005998                memset
+                0x0000000008005a74       0x48 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+                0x0000000008005a74                __libc_init_array
+ .text.memset   0x0000000008005abc       0xa4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+                0x0000000008005abc                memset
  *(.glue_7)
- .glue_7        0x0000000008005a3c        0x0 linker stubs
+ .glue_7        0x0000000008005b60        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008005a3c        0x0 linker stubs
+ .glue_7t       0x0000000008005b60        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008005a3c        0x0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0000000008005b60        0x0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0000000008005a3c        0x4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000008005a3c                _init
- .init          0x0000000008005a40        0x8 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x0000000008005b60        0x4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008005b60                _init
+ .init          0x0000000008005b64        0x8 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x0000000008005a48        0x4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000008005a48                _fini
- .fini          0x0000000008005a4c        0x8 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x0000000008005a54                . = ALIGN (0x4)
-                0x0000000008005a54                _etext = .
+ .fini          0x0000000008005b6c        0x4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008005b6c                _fini
+ .fini          0x0000000008005b70        0x8 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000008005b78                . = ALIGN (0x4)
+                0x0000000008005b78                _etext = .
 
-.vfp11_veneer   0x0000000008005a54        0x0
- .vfp11_veneer  0x0000000008005a54        0x0 linker stubs
+.vfp11_veneer   0x0000000008005b78        0x0
+ .vfp11_veneer  0x0000000008005b78        0x0 linker stubs
 
-.v4_bx          0x0000000008005a54        0x0
- .v4_bx         0x0000000008005a54        0x0 linker stubs
+.v4_bx          0x0000000008005b78        0x0
+ .v4_bx         0x0000000008005b78        0x0 linker stubs
 
-.iplt           0x0000000008005a54        0x0
- .iplt          0x0000000008005a54        0x0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x0000000008005b78        0x0
+ .iplt          0x0000000008005b78        0x0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x0000000008005a54       0x94
-                0x0000000008005a54                . = ALIGN (0x4)
+.rodata         0x0000000008005b78       0x94
+                0x0000000008005b78                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.D1CorePrescTable
-                0x0000000008005a54       0x10 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/system_stm32h7xx.c.obj
-                0x0000000008005a54                D1CorePrescTable
+                0x0000000008005b78       0x10 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/system_stm32h7xx.c.obj
+                0x0000000008005b78                D1CorePrescTable
  .rodata.flagBitshiftOffset.0
-                0x0000000008005a64        0x8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
+                0x0000000008005b88        0x8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c.obj
  .rodata.UARTPrescTable
-                0x0000000008005a6c       0x18 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
-                0x0000000008005a6c                UARTPrescTable
+                0x0000000008005b90       0x18 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
+                0x0000000008005b90                UARTPrescTable
  .rodata.denominator.0
-                0x0000000008005a84        0x8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+                0x0000000008005ba8        0x8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
  .rodata.numerator.1
-                0x0000000008005a8c        0x8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
+                0x0000000008005bb0        0x8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
  .rodata.color_Fill
-                0x0000000008005a94       0x54 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
-                0x0000000008005a94                color_Fill
-                0x0000000008005ae8                . = ALIGN (0x4)
+                0x0000000008005bb8       0x54 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+                0x0000000008005bb8                color_Fill
+                0x0000000008005c0c                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008005ae8        0x8
-                0x0000000008005ae8                __exidx_start = .
+.ARM            0x0000000008005c0c        0x8
+                0x0000000008005c0c                __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text.__udivmoddi4
-                0x0000000008005ae8        0x8 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x0000000008005af0                __exidx_end = .
+                0x0000000008005c0c        0x8 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x0000000008005c14                __exidx_end = .
 
-.rel.dyn        0x0000000008005af0        0x0
- .rel.iplt      0x0000000008005af0        0x0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x0000000008005c14        0x0
+ .rel.iplt      0x0000000008005c14        0x0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.preinit_array  0x0000000008005af0        0x0
-                0x0000000008005af0                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008005c14        0x0
+                0x0000000008005c14                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008005af0                PROVIDE (__preinit_array_end = .)
+                0x0000000008005c14                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008005af0        0x4
-                0x0000000008005af0                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008005c14        0x4
+                0x0000000008005c14                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008005af0        0x4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x0000000008005af4                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008005c14        0x4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008005c18                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008005af4        0x4
-                0x0000000008005af4                PROVIDE (__fini_array_start = .)
+.fini_array     0x0000000008005c18        0x4
+                0x0000000008005c18                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008005af4        0x4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x0000000008005af8                PROVIDE (__fini_array_end = .)
-                0x0000000008005af8                _sidata = LOADADDR (.data)
+ .fini_array    0x0000000008005c18        0x4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008005c1c                PROVIDE (__fini_array_end = .)
+                0x0000000008005c1c                _sidata = LOADADDR (.data)
 
-.data           0x0000000024000000       0x10 load address 0x0000000008005af8
+.data           0x0000000024000000       0x10 load address 0x0000000008005c1c
                 0x0000000024000000                . = ALIGN (0x4)
                 0x0000000024000000                _sdata = .
  *(.data)
@@ -2009,17 +2011,17 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
                 0x0000000024000010                _edata = .
 
 .tm_clone_table
-                0x0000000024000010        0x0 load address 0x0000000008005b08
+                0x0000000024000010        0x0 load address 0x0000000008005c2c
  .tm_clone_table
                 0x0000000024000010        0x0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  .tm_clone_table
                 0x0000000024000010        0x0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
 
-.igot.plt       0x0000000024000010        0x0 load address 0x0000000008005b08
+.igot.plt       0x0000000024000010        0x0 load address 0x0000000008005c2c
  .igot.plt      0x0000000024000010        0x0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x0000000024000010                . = ALIGN (0x4)
 
-.bss            0x0000000024000010      0x230 load address 0x0000000008005b08
+.bss            0x0000000024000010      0x230 load address 0x0000000008005c2c
                 0x0000000024000010                _sbss = .
                 0x0000000024000010                __bss_start__ = _sbss
  *(.bss)
@@ -2050,7 +2052,7 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
                 0x0000000024000240                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000024000240      0x600 load address 0x0000000008005b08
+                0x0000000024000240      0x600 load address 0x0000000008005c2c
                 0x0000000024000240                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x0000000024000240                PROVIDE (_end = .)
@@ -2150,7 +2152,7 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
  .comment       0x000000000000005d       0x5e /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
  .comment       0x000000000000005d       0x5e /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
 
-.debug_info     0x0000000000000000    0x19ca1
+.debug_info     0x0000000000000000    0x19f72
  .debug_info    0x0000000000000000     0x1ea1 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/main.c.obj
  .debug_info    0x0000000000001ea1     0x1a93 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
  .debug_info    0x0000000000003934      0x906 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
@@ -2166,15 +2168,15 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
  .debug_info    0x000000000000d68f     0x1b7f CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .debug_info    0x000000000000f20e     0x674e CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
  .debug_info    0x000000000001595c     0x124f CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
- .debug_info    0x0000000000016bab     0x164e CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
- .debug_info    0x00000000000181f9     0x10f4 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
- .debug_info    0x00000000000192ed       0x26 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_info    0x0000000000019313      0x717 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .debug_info    0x0000000000019a2a       0x26 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
- .debug_info    0x0000000000019a50      0x11a /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
- .debug_info    0x0000000000019b6a      0x137 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .debug_info    0x0000000000016bab     0x191f CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+ .debug_info    0x00000000000184ca     0x10f4 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+ .debug_info    0x00000000000195be       0x26 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x00000000000195e4      0x717 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_info    0x0000000000019cfb       0x26 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x0000000000019d21      0x11a /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .debug_info    0x0000000000019e3b      0x137 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
 
-.debug_abbrev   0x0000000000000000     0x2a1a
+.debug_abbrev   0x0000000000000000     0x2a3d
  .debug_abbrev  0x0000000000000000      0x2d8 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/main.c.obj
  .debug_abbrev  0x00000000000002d8      0x23e CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
  .debug_abbrev  0x0000000000000516      0x17e CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
@@ -2190,15 +2192,15 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
  .debug_abbrev  0x0000000000001a34      0x280 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .debug_abbrev  0x0000000000001cb4      0x337 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
  .debug_abbrev  0x0000000000001feb      0x2e7 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
- .debug_abbrev  0x00000000000022d2      0x269 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
- .debug_abbrev  0x000000000000253b      0x1d4 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
- .debug_abbrev  0x000000000000270f       0x14 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_abbrev  0x0000000000002723      0x163 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .debug_abbrev  0x0000000000002886       0x14 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
- .debug_abbrev  0x000000000000289a       0xcc /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
- .debug_abbrev  0x0000000000002966       0xb4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .debug_abbrev  0x00000000000022d2      0x28c CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+ .debug_abbrev  0x000000000000255e      0x1d4 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+ .debug_abbrev  0x0000000000002732       0x14 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000000000002746      0x163 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x00000000000028a9       0x14 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x00000000000028bd       0xcc /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .debug_abbrev  0x0000000000002989       0xb4 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
 
-.debug_loc      0x0000000000000000     0xf0da
+.debug_loc      0x0000000000000000     0xf130
  .debug_loc     0x0000000000000000       0x23 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/main.c.obj
  .debug_loc     0x0000000000000023       0xa8 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
  .debug_loc     0x00000000000000cb      0x1a0 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/system_stm32h7xx.c.obj
@@ -2212,13 +2214,13 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
  .debug_loc     0x0000000000004b6f     0x1a45 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .debug_loc     0x00000000000065b4     0x5d4e CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
  .debug_loc     0x000000000000c302      0xba5 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
- .debug_loc     0x000000000000cea7      0xe03 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
- .debug_loc     0x000000000000dcaa      0x13b CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
- .debug_loc     0x000000000000dde5     0x100f /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .debug_loc     0x000000000000edf4       0xba /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
- .debug_loc     0x000000000000eeae      0x22c /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .debug_loc     0x000000000000cea7      0xe59 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+ .debug_loc     0x000000000000dd00      0x13b CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+ .debug_loc     0x000000000000de3b     0x100f /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_loc     0x000000000000ee4a       0xba /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .debug_loc     0x000000000000ef04      0x22c /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
 
-.debug_aranges  0x0000000000000000      0xd70
+.debug_aranges  0x0000000000000000      0xd78
  .debug_aranges
                 0x0000000000000000       0x50 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/main.c.obj
  .debug_aranges
@@ -2250,21 +2252,21 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
  .debug_aranges
                 0x0000000000000b60       0xa8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
  .debug_aranges
-                0x0000000000000c08       0x78 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+                0x0000000000000c08       0x80 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
  .debug_aranges
-                0x0000000000000c80       0x50 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+                0x0000000000000c88       0x50 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
  .debug_aranges
-                0x0000000000000cd0       0x20 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000000000cd8       0x20 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
  .debug_aranges
-                0x0000000000000cf0       0x20 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x0000000000000cf8       0x20 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
  .debug_aranges
-                0x0000000000000d10       0x20 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x0000000000000d18       0x20 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
  .debug_aranges
-                0x0000000000000d30       0x20 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+                0x0000000000000d38       0x20 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
  .debug_aranges
-                0x0000000000000d50       0x20 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+                0x0000000000000d58       0x20 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
 
-.debug_ranges   0x0000000000000000      0xe40
+.debug_ranges   0x0000000000000000      0xe48
  .debug_ranges  0x0000000000000000       0x58 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/main.c.obj
  .debug_ranges  0x0000000000000058       0x30 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
  .debug_ranges  0x0000000000000088       0x68 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
@@ -2280,13 +2282,13 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
  .debug_ranges  0x0000000000000818      0x198 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .debug_ranges  0x00000000000009b0      0x238 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
  .debug_ranges  0x0000000000000be8       0x98 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
- .debug_ranges  0x0000000000000c80       0x68 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
- .debug_ranges  0x0000000000000ce8       0x40 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
- .debug_ranges  0x0000000000000d28       0xf8 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .debug_ranges  0x0000000000000e20       0x10 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
- .debug_ranges  0x0000000000000e30       0x10 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .debug_ranges  0x0000000000000c80       0x70 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+ .debug_ranges  0x0000000000000cf0       0x40 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+ .debug_ranges  0x0000000000000d30       0xf8 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_ranges  0x0000000000000e28       0x10 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .debug_ranges  0x0000000000000e38       0x10 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
 
-.debug_line     0x0000000000000000    0x1417c
+.debug_line     0x0000000000000000    0x1422c
  .debug_line    0x0000000000000000      0x7a7 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/main.c.obj
  .debug_line    0x00000000000007a7      0x51b CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
  .debug_line    0x0000000000000cc2      0x37c CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
@@ -2302,15 +2304,15 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
  .debug_line    0x0000000000009173     0x24a3 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .debug_line    0x000000000000b616     0x6753 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
  .debug_line    0x0000000000011d69      0xd0c CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
- .debug_line    0x0000000000012a75      0x8c0 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
- .debug_line    0x0000000000013335      0x3b6 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
- .debug_line    0x00000000000136eb       0x83 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_line    0x000000000001376e      0x5d1 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .debug_line    0x0000000000013d3f       0x83 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
- .debug_line    0x0000000000013dc2      0x18b /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
- .debug_line    0x0000000000013f4d      0x22f /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .debug_line    0x0000000000012a75      0x970 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+ .debug_line    0x00000000000133e5      0x3b6 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+ .debug_line    0x000000000001379b       0x83 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x000000000001381e      0x5d1 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x0000000000013def       0x83 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000013e72      0x18b /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .debug_line    0x0000000000013ffd      0x22f /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
 
-.debug_str      0x0000000000000000     0x5a3b
+.debug_str      0x0000000000000000     0x5a40
  .debug_str     0x0000000000000000     0x179b CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/main.c.obj
                                        0x18d8 (size before relaxing)
  .debug_str     0x000000000000179b      0x452 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
@@ -2341,22 +2343,22 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
                                        0x14f6 (size before relaxing)
  .debug_str     0x0000000000004c53      0x26b CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
                                         0xbdf (size before relaxing)
- .debug_str     0x0000000000004ebe      0x1b3 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
-                                        0xa2f (size before relaxing)
- .debug_str     0x0000000000005071       0x74 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+ .debug_str     0x0000000000004ebe      0x1b8 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+                                        0xa54 (size before relaxing)
+ .debug_str     0x0000000000005076       0x74 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
                                         0x903 (size before relaxing)
- .debug_str     0x00000000000050e5       0xc2 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_str     0x00000000000050ea       0xc2 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
                                          0xd0 (size before relaxing)
- .debug_str     0x00000000000051a7      0x581 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_str     0x00000000000051ac      0x581 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
                                         0x689 (size before relaxing)
- .debug_str     0x0000000000005728       0x53 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x000000000000572d       0x53 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
                                          0xd4 (size before relaxing)
- .debug_str     0x000000000000577b      0x1d0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .debug_str     0x0000000000005780      0x1d0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
                                         0x26b (size before relaxing)
- .debug_str     0x000000000000594b       0xf0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .debug_str     0x0000000000005950       0xf0 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
                                         0x220 (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x2150
+.debug_frame    0x0000000000000000     0x2164
  .debug_frame   0x0000000000000000       0xd0 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/main.c.obj
  .debug_frame   0x00000000000000d0       0xa0 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_hal_msp.c.obj
  .debug_frame   0x0000000000000170       0xf0 CMakeFiles/LCD_SPI_DMA.elf.dir/Core/Src/stm32h7xx_it.c.obj
@@ -2371,9 +2373,9 @@ LOAD /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm
  .debug_frame   0x0000000000001110      0x4b8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c.obj
  .debug_frame   0x00000000000015c8      0x680 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c.obj
  .debug_frame   0x0000000000001c48      0x1c8 CMakeFiles/LCD_SPI_DMA.elf.dir/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c.obj
- .debug_frame   0x0000000000001e10      0x1bc CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
- .debug_frame   0x0000000000001fcc       0xcc CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
- .debug_frame   0x0000000000002098       0x2c /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00000000000020c4       0x34 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00000000000020f8       0x2c /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
- .debug_frame   0x0000000000002124       0x2c /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001e10      0x1d0 CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd.c.obj
+ .debug_frame   0x0000000000001fe0       0xcc CMakeFiles/LCD_SPI_DMA.elf.dir/UserApp/LCD/lcd_init.c.obj
+ .debug_frame   0x00000000000020ac       0x2c /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000000020d8       0x34 /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x000000000000210c       0x2c /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .debug_frame   0x0000000000002138       0x2c /usr/local/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)

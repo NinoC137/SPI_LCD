@@ -16,6 +16,13 @@ void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef *hspi){
     }
 }
 
+void HAL_SPI_TxHalfCpltCallback(SPI_HandleTypeDef *hspi){
+    UNUSED(hspi);
+    if(hspi == &hspi1){
+//        HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+    }
+}
+
 const unsigned int color_Fill[21] = {
         0xFFFF, 0x0000, 0x001F, 0XF81F, 0XFFE0, 0X07FF, 0xF800, 0xF81F,
         0x07E0, 0x7FFF, 0xFFE0, 0XBC40, 0XFC07, 0X8430, 0X01CF, 0X7D7C,
@@ -26,16 +33,67 @@ void LCD_Fill(uint16_t xsta, uint16_t ysta, uint16_t xend, uint16_t yend, uint16
     uint16_t i, j;
     uint16_t* buf = &color;
 
+
+    uint16_t xLen, yLen;
+    xLen = xend - xsta;
+    yLen = yend - ysta;
+
     LCD_Address_Set(xsta, ysta, xend - 1, yend - 1);
-    for (i = ysta; i < yend; i++){
-        for (j = xsta; j < xend / 8; j++) {
-//            LCD_WR_DATA(color);
-            LCD_CS_Clr();
-            HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)buf, 16);
-            while(HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
-            LCD_CS_Set();
-        }
-    }
+    LCD_CS_Clr();
+    HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)buf, (xLen * yLen * 4) / 10);
+    while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
+    LCD_CS_Set();
+
+    LCD_Address_Set(xsta, ysta + (yLen * 2 / 10), xend - 1, yend - 1);
+    LCD_CS_Clr();
+    HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)buf, (xLen * yLen * 4) / 10);
+    while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
+    LCD_CS_Set();
+
+//    LCD_Address_Set(xsta, ysta + (yLen * 3 / 10), xend - 1, yend - 1);
+//    LCD_CS_Clr();
+//    HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)buf, (xLen * yLen * 4) / 10);
+//    while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
+//    LCD_CS_Set();
+
+    LCD_Address_Set(xsta, ysta + (yLen * 4 / 10), xend - 1, yend - 1);
+    LCD_CS_Clr();
+    HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)buf, (xLen * yLen * 4) / 10);
+    while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
+    LCD_CS_Set();
+
+//    LCD_Address_Set(xsta, ysta + (yLen * 5 / 10), xend - 1, yend - 1);
+//    LCD_CS_Clr();
+//    HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)buf, (xLen * yLen * 4) / 10);
+//    while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
+//    LCD_CS_Set();
+
+    LCD_Address_Set(xsta, ysta + (yLen * 6 / 10), xend - 1, yend - 1);
+    LCD_CS_Clr();
+    HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)buf, (xLen * yLen * 4) / 10);
+    while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
+    LCD_CS_Set();
+
+//    LCD_Address_Set(xsta, ysta + (yLen * 7 / 10), xend - 1, yend - 1);
+//    LCD_CS_Clr();
+//    HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)buf, (xLen * yLen * 4) / 10);
+//    while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
+//    LCD_CS_Set();
+
+    LCD_Address_Set(xsta, ysta + (yLen * 8 / 10), xend - 1, yend - 1);
+    LCD_CS_Clr();
+    HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)buf, (xLen * yLen * 4) / 10);
+    while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
+    LCD_CS_Set();
+
+//    for (i = ysta; i < yend; i++){
+//        for (j = xsta; j < xend / 8; j++) {
+//            LCD_CS_Clr();
+//            HAL_SPI_Transmit_DMA(&hspi1, (uint8_t*)buf, 16);
+//            while(HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY);
+//            LCD_CS_Set();
+//        }
+//    }
 }
 
 void LCD_DrawPoint(uint16_t x, uint16_t y, uint16_t color) {
