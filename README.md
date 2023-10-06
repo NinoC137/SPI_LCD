@@ -7,6 +7,12 @@ SPI LCD(ST7789) DMA(not completely DMA+frameBuffer)
 
 疑问点:未能实现DMA一次性刷入大数组,进行了诸多测试,未能解决
 
+第一次更新:  
+    已实现DMA+SPI进行color_fill 即大数组的刷新
+
+    更改内容: 将DMA数据位宽从16bit改为8bit,不理解.可能和地址指针有关?    
+    
+
 ## 配置注意事项:
 1. SPI速率不能过快,否则可能无法成功初始化(ST7789最多支持到50MB/s)
 2. GPIO要配置为超高速模式
