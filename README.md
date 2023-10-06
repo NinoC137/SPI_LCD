@@ -17,3 +17,4 @@ SPI LCD(ST7789) DMA(not completely DMA+frameBuffer)
 1. SPI速率不能过快,否则可能无法成功初始化(ST7789最多支持到50MB/s)
 2. GPIO要配置为超高速模式
 3. 信号线加上拉电阻,尽量保证速率
+4. 由于size_t类型变量为16bit,最大存储65535长度,为了实现整屏的刷新,将现实内容分为了5个part进行刷新
