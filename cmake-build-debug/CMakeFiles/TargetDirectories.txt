@@ -1,0 +1,3 @@
+/home/nino/CLionProjects/LCD_SPI_DMA/cmake-build-debug/CMakeFiles/LCD_SPI_DMA.elf.dir
+/home/nino/CLionProjects/LCD_SPI_DMA/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nino/CLionProjects/LCD_SPI_DMA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
